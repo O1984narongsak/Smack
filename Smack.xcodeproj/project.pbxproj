@@ -20,6 +20,7 @@
 		F1EBDF4721482F2C00C615BB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBDF4621482F2C00C615BB /* LoginVC.swift */; };
 		F1EBDF492148319400C615BB /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBDF482148319400C615BB /* CreateVC.swift */; };
 		F1EBDF4C2148441500C615BB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBDF4B2148441500C615BB /* AuthService.swift */; };
+		F1EBDF4E2148598A00C615BB /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBDF4D2148598A00C615BB /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F1EBDF4621482F2C00C615BB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		F1EBDF482148319400C615BB /* CreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVC.swift; sourceTree = "<group>"; };
 		F1EBDF4B2148441500C615BB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		F1EBDF4D2148598A00C615BB /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				F1EBDF412148100E00C615BB /* GradientView.swift */,
+				F1EBDF4D2148598A00C615BB /* RoundButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				F1EBDF4C2148441500C615BB /* AuthService.swift in Sources */,
 				F1EBDF422148100E00C615BB /* GradientView.swift in Sources */,
 				F1EBDF242147FB3A00C615BB /* AppDelegate.swift in Sources */,
+				F1EBDF4E2148598A00C615BB /* RoundButton.swift in Sources */,
 				F1EBDF392148028D00C615BB /* SWRevealViewController.m in Sources */,
 				F1EBDF492148319400C615BB /* CreateVC.swift in Sources */,
 				F1EBDF452148278100C615BB /* Constants.swift in Sources */,
