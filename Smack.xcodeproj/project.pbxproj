@@ -16,6 +16,7 @@
 		F1EBDF3E214806E000C615BB /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBDF3D214806E000C615BB /* ChatVC.swift */; };
 		F1EBDF402148070A00C615BB /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBDF3F2148070A00C615BB /* ChannelVC.swift */; };
 		F1EBDF422148100E00C615BB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBDF412148100E00C615BB /* GradientView.swift */; };
+		F1EBDF452148278100C615BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBDF442148278100C615BB /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F1EBDF3D214806E000C615BB /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		F1EBDF3F2148070A00C615BB /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		F1EBDF412148100E00C615BB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		F1EBDF442148278100C615BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		F1EBDF172147FB3A00C615BB = {
 			isa = PBXGroup;
 			children = (
+				F1EBDF432148275100C615BB /* Utilities */,
 				F1EBDF3B2148067C00C615BB /* Model */,
 				F1EBDF3C2148068500C615BB /* View */,
 				F1EBDF3A2148064B00C615BB /* Controller */,
@@ -123,6 +126,14 @@
 				F1EBDF412148100E00C615BB /* GradientView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F1EBDF432148275100C615BB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F1EBDF442148278100C615BB /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		FB9E2E4D3EA7FF2114281E91 /* Frameworks */ = {
@@ -257,6 +268,7 @@
 				F1EBDF422148100E00C615BB /* GradientView.swift in Sources */,
 				F1EBDF242147FB3A00C615BB /* AppDelegate.swift in Sources */,
 				F1EBDF392148028D00C615BB /* SWRevealViewController.m in Sources */,
+				F1EBDF452148278100C615BB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
