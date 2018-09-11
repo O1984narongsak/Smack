@@ -19,6 +19,7 @@
 		F1EBDF452148278100C615BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBDF442148278100C615BB /* Constants.swift */; };
 		F1EBDF4721482F2C00C615BB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBDF4621482F2C00C615BB /* LoginVC.swift */; };
 		F1EBDF492148319400C615BB /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBDF482148319400C615BB /* CreateVC.swift */; };
+		F1EBDF4C2148441500C615BB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBDF4B2148441500C615BB /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F1EBDF442148278100C615BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F1EBDF4621482F2C00C615BB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		F1EBDF482148319400C615BB /* CreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVC.swift; sourceTree = "<group>"; };
+		F1EBDF4B2148441500C615BB /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		F1EBDF172147FB3A00C615BB = {
 			isa = PBXGroup;
 			children = (
+				F1EBDF4A214843DC00C615BB /* Services */,
 				F1EBDF432148275100C615BB /* Utilities */,
 				F1EBDF3B2148067C00C615BB /* Model */,
 				F1EBDF3C2148068500C615BB /* View */,
@@ -140,6 +143,14 @@
 				F1EBDF442148278100C615BB /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F1EBDF4A214843DC00C615BB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F1EBDF4B2148441500C615BB /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		FB9E2E4D3EA7FF2114281E91 /* Frameworks */ = {
@@ -272,6 +283,7 @@
 				F1EBDF402148070A00C615BB /* ChannelVC.swift in Sources */,
 				F1EBDF3E214806E000C615BB /* ChatVC.swift in Sources */,
 				F1EBDF4721482F2C00C615BB /* LoginVC.swift in Sources */,
+				F1EBDF4C2148441500C615BB /* AuthService.swift in Sources */,
 				F1EBDF422148100E00C615BB /* GradientView.swift in Sources */,
 				F1EBDF242147FB3A00C615BB /* AppDelegate.swift in Sources */,
 				F1EBDF392148028D00C615BB /* SWRevealViewController.m in Sources */,
