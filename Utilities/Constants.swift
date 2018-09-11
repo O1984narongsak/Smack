@@ -9,3 +9,5 @@
 import Foundation
 
 let TO_LOGIN = "toLogIn"
+let TO_CREATE = "toCreate"
+let UNWIND = "unwindToChennel"
